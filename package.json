@@ -1,0 +1,17 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://harshit2009.github.io/harshit2009.github.io",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Harshit Goel",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.0.0",
+    "node-sass": "^4.14.1"
+  }
+}
